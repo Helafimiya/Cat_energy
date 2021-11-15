@@ -1,61 +1,25 @@
-.promo {
+.main-nav {
     display: block;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-image: url("../imgs/index-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    position: absolute;
+    right: 100vh;
 }
 
-.promo__title {
-    background-position: center;
-    left: 20px;
-    top: 32px;
-    right: 20px;
+.main-nav__list {
+    list-style: none;
 }
 
-.title {
-    font-family: "Oswald", sans-serif;
-    font-size: 35px;
-    line-height: 36px;
-    font-weight: 400;
-    color: #fff;
-    padding-top: 33px;
+.main-nav__item {
+    padding-bottom: 25px;
+    align-items: baseline;
 }
 
-.lead {
-    font-family: "Oswald", sans-serif;
-    font-size: 14px;
-    line-height: 14px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    padding-top: 15px;
-}
-
-.promo-image {
-    padding-top: 30px;
-    width: 271px;
-}
-
-.promo__button {
-    display: block;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    background-color: #68b738;    
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.promo__link {
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
+.main-nav__item-link {
     text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;  
+    color: black;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    
 }
-
