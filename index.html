@@ -5,13 +5,16 @@
         <title>Cat energy</title>
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <meta name="format-detection" content="telephone=no"/>
-        <link rel="stylesheet" href="css/"/>
-        <link rel="stylesheet" href=""/>
+        <link rel="stylesheet" href="styles/header.css"/>
+        <link rel="stylesheet" href="styles/main.css"/>
+        <link rel="stylesheet" href="styles/normalize.css"/>
     </head>
     <body>
         <header class="page-header">
             <a class="page-header__logo">
-                <img class="page-header__logo-image" src="imgs/logo-desktop.svg.png" width="202" height="59" alt="Логотип"/>
+                <img class="page-header__logo-image" src="imgs/logo-mobile.svg" alt="Логотип"/>
+                <img class="page-header__logo-name" src="imgs/logo-mobile-header.svg" alt="Логотип"/>
+                <button class="page-header__button-menu"></button>
             </a>
             <nav class="main-nav">
                 <div class="main-nav__wrapper">    
@@ -20,10 +23,10 @@
                             <a class="main-nav__item-link main-nav__item-link--active" href="#">Главная</a>
                         </li>
                         <li class="main-nav__item">
-                            <a href="catalog.html">Каталог продукции</a>
+                            <a class="main-nav__item-link" href="catalog.html">Каталог продукции</a>
                         </li>
                         <li class="main-nav__item">
-                            <a href="form.html">Подбор программы</a>
+                            <a class="main-nav__item-link" href="form.html">Подбор программы</a>
                         </li>
                     </ul>
                 </div>
@@ -34,28 +37,31 @@
             <section class="promo">    
                 <h1 class="promo__title title">Функциональное питание для котов</h1>
                 <p class="promo__lead lead">Занялся собой? Займись котом!</p>
-                <button class="promo__button button">Подобрать программу</button>
-                <img src="imgs/index-can.png" width="552" height="560" alt="промо продукта">
+                <img class="promo-image" src="imgs/index-can-mobile.png.svg"alt="промо продукта" width="280" height="271"/>
+                <div class="promo__button">
+                    <a class="promo__link" href="#">Подобрать программу</a>
+                </div>
             </section>
-            <section class="programs">
-                <ul class="visually-hidden">Программы питания
-                    <li>
-                        <article>
-                            <h3 class="programs__item programs__item--slim">Похудение</h3>
-                            <p>Ваш кот весит больше собаки и почти утратил способность<br>
-                                лазить по деревьям? Пора на диету! Cat Energy Slim поможет<br> вашему питомцу сбросить лишний вес.</p>
-                            <img src="imgs/Ellipse 1 copy 2.png" alt="зеленый фон" width="100" height="100">
+            <section>
+                <div class="visually-hidden">Программы питания</div>
+                <ul>
+                    <li class="program">
+                        <article class="program__item program__item--pro">
+                            <h3 class="program__item-title">Похудение</h3>
                             <img src="imgs/cat-slim.svg.png" alt="силуэт кота" width="70" height="97">
-                            <a class="programs__item-link" href="#">Каталог slim</a>
+                            <p class="program__description">Ваш кот весит больше собаки и почти утратил способность
+                                лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+                            <hr class="hr"/>
+                            <a class="program__item-link" href="#">Каталог slim</a>
                         </article>
                     </li>
-                    <li>
-                        <article>
-                            <h3 class="programs__item programs__item--pro">Набрать вес</h3>
-                            <p>Заработать авторитет среди дворовых котов и даже собак?<br>
-                                Серия Cat Energy Pro поможет вашему коту нарастить<br> необходимые мышцы!</p>
-                            <img src="imgs/Ellipse 1 copy 2.png" alt="зеленый фон" width="100" height="100">
+                    <li class="program">
+                        <article class="program__item program__item--pro">
+                            <h3 class="program__item-title">Набрать вес</h3>
                             <img src="imgs/cat-pro.svg.png" alt="силуэт кота" width="134" height="56">
+                            <p class="program__description">Заработать авторитет среди дворовых котов и даже собак?
+                                Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+                            <hr class="hr"/>
                             <a class="programs__item-link href="#">Каталог pro</a>
                         </article>
                     </li>

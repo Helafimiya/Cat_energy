@@ -1,0 +1,52 @@
+.page-header__logo {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.page-header__logo-image {
+    position: relative;
+    padding-top: 11px;
+}
+
+.page-header__logo-name {
+    position: relative;
+    padding-top: 24px;
+}
+
+.page-header__button-menu {
+    background-image: url("../imgs/mobile-menu.svg");
+    position: relative;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    width: 24px;
+    height: 18px;
+    top: 23px;
+}
+
+.main-nav {
+    display: block;
+    position: absolute;
+    right: 100vh;
+}
+
+.main-nav__list {
+    list-style: none;
+}
+
+.main-nav__item {
+    padding-bottom: 25px;
+    align-items: baseline;
+}
+
+.main-nav__item-link {
+    text-decoration: none;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    
+}
