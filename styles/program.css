@@ -1,4 +1,11 @@
-.program__item-title {
+.program {
+    background-color: #f2f2f2;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.program__title {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 38 px;
@@ -10,14 +17,23 @@
     top: 30px;
 }
 
-.shadow-cat {
+.program__decor {
     position: relative;
-    width: 35px;
-    height: 49px;
-    top: -33px;
-    right: 65px;
-    margin-left: 20px;
+    top: -30px;
+    left: 22px;
+    border-radius: 50%;
+    background-color: #68b738;
+    width: 50px;
+    height: 50px;
 }
+
+.program__cat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 .program__description {
     font-family: "Arial", sans-serif;
