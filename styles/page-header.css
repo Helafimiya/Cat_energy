@@ -17,7 +17,6 @@
 
 .page-header__button-menu {
     background-image: url("../imgs/mobile-menu.svg");
-    position: relative;
     background-color: transparent;
     border: none;
     width: 24px;
