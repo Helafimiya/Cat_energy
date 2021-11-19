@@ -1,17 +1,18 @@
-.page-header__logo {
+.page-header {
     display: flex;
     justify-content: space-around;
     align-content: center;
 }
 
-.page-header__logo-image {
+.page-header__logo,
+.page-header__logo-image,
+.page-header__button-menu {
     position: relative;
-    padding-top: 11px;
 }
 
-.page-header__logo-name {
-    position: relative;
-    padding-top: 24px;
+.page-header__logo-image {
+    padding-right: 57px;
+    padding-top: 11px;
 }
 
 .page-header__button-menu {
@@ -19,9 +20,7 @@
     position: relative;
     background-color: transparent;
     border: none;
-    padding: 0;
     width: 24px;
     height: 18px;
-    top: 23px;
+    margin-top: 23px;
 }
-
