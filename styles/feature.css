@@ -1,0 +1,35 @@
+.feature {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.feature__item {
+    margin-bottom: -26px;
+}
+
+.feature__decoration {
+    position: relative;
+    top: -56px;
+    left: -40px;
+    background-color: #68b738;
+    width: 60px;
+    height: 60px;
+}
+
+.feature__advantages {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature__description {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
