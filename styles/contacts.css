@@ -1,0 +1,21 @@
+.contacts {
+    display: flex;    
+}
+
+.contacts__invitation {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 6%;
+
+}
+
+.contacts__add {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-right: 6%;
+}

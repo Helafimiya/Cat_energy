@@ -1,0 +1,11 @@
+.cats {
+ 
+}
+
+.cats__before {
+    position: relative;
+}
+
+.cats__after {
+    position: relative;
+}

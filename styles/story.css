@@ -11,3 +11,10 @@
     margin-left: 20px;
     margin-bottom: 0;
 }
+
+.story__total {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}

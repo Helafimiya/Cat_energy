@@ -1,0 +1,11 @@
+.slidercontainer {
+    width: 100%;
+}
+
+.slidercontainer__slider {
+    appearance: none;
+    width: 84px;
+    height: 14px;
+    background-color: #68b738;
+    
+}
