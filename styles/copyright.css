@@ -1,0 +1,13 @@
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 31px;
+    background-color: #f2f2f2;
+}
