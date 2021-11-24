@@ -1,5 +1,9 @@
 .cats {
- 
+    display: flex;
+    align-content: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 36px;
 }
 
 .cats__before {
@@ -7,5 +11,6 @@
 }
 
 .cats__after {
-    position: relative;
+    position: absolute;
+    z-index: -1;
 }
