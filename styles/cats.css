@@ -1,16 +1,29 @@
 .cats {
-    display: flex;
-    align-content: center;
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 36px;
 }
 
 .cats__before {
-    position: relative;
+    width: 311px;
+    height: 240px;
+}
+
+@media (min-width: 700px) {
+    .cats__before {
+        width: 677px;
+        height: 499px;
+    }
 }
 
 .cats__after {
-    position: absolute;
-    z-index: -1;
+    width: 251px;
+    height: 240px;
+}
+
+@media (min-width: 700px) {
+    .cats__after {
+        width: 545px;
+        height: 517px;
+    }
 }
