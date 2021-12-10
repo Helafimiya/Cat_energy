@@ -1,58 +1,62 @@
 .statistic {
-    display: flex;  
-    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 124px 124px;
+    grid-template-rows: 55px 18px;
+    column-gap: 32px;
+    margin-left: 6%;
+}
+
+.statistic__item {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 18px;
+    border: 1px solid #cdcdcd;
+    border-radius: 3%;
 }
 
 .statistic__item_1 {
-    font-family: "Oswald", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 18px;
-    padding-left: 44px;
-    padding-right: 44px;
-    padding-bottom: 18px;
-    margin-right: 32px;
-    margin-left: 12%;
-    border: 1px solid #cdcdcd;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .statistic__item_2 {
-    position: relative;
-    font-family: "Oswald", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    padding-top: 18px;
-    padding: 20px;
-    padding-bottom: 18px;
-    border: 1px solid #cdcdcd;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.statistic__mark {   
+    width: 83px;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    margin-left: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f2f2f2;
 }
 
 .statistic__mark_1 {
     font-family: "Arial", sans-serif;
     font-size: 12px;
     line-height: 12px;
-    font-weight: 400;
     text-align: center;
-    padding-right: 16px;
-    padding-left: 16px;
-    background-color: #f2f2f2;
-    position: relative;
-    width: 53px;
-    top: -37px;
-    left: 63px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 
 .statistic__mark_2 {
-    font-family: "Arial", sans-serif;
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 400;
-    text-align: center;
-    padding-right: 16px;
-    padding-left: 16px;
-    background-color: #f2f2f2;
-    position: relative;
-    width: 53px;
-    top: -37px;
-    left: 130px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }

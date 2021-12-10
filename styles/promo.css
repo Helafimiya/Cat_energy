@@ -8,6 +8,23 @@
     background-size: contain;
 }
 
+@media (min-width: 700px) {
+    .promo {
+        background-image: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .promo {        
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url("../imgs/index-background-mobile.svg");
+    background-repeat: no-repeat;
+    }
+}
+
 .promo__title {
     font-family: "Oswald", sans-serif;
     font-size: 35px;
@@ -20,6 +37,22 @@
     top: 32px;
     right: 20px;
 }
+
+@media (min-width: 700px) {
+    .promo__title {
+        font-family: "Oswald", sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 400;
+        color: #000;
+        padding-top: 67px;
+        padding-left: 117px;
+        padding-right: 146px;
+        text-align: initial;
+        margin: auto;
+    }
+}
+
 .promo__lead {
     font-family: "Oswald", sans-serif;
     font-size: 14px;
@@ -30,9 +63,31 @@
     padding-top: 15px;
 }
 
+@media (min-width: 700px) {
+    .promo__lead {
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #000;
+        padding-left: 117px;
+        text-transform: uppercase;
+        padding-top: 32px;  
+        text-align: left;
+    }
+}
+
 .promo__image {
     padding-top: 30px;
     width: 271px;
+}
+
+@media (min-width: 700px) {
+    .promo__image {
+        width: 709px;
+        height: 609px;
+        padding-top: 0;
+    }
 }
 
 .promo__link {
@@ -50,4 +105,23 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;  
+}
+
+@media (min-width: 700px) {
+    .promo__link {
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase; 
+        width: 245px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        background-color: #68b738;
+        position: absolute;
+        transform: translate(48%, -1090%);
+    }
 }

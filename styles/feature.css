@@ -1,28 +1,78 @@
 .feature {
+    display: grid;
+    margin: 0;
+    padding: 0;
     margin-left: 20px;
     margin-right: 20px;
     list-style: none;
 }
 
-.feature__item {
-    margin-bottom: -26px;
+@media (min-width: 700px) {
+    .feature {
+        display: grid;
+        grid-column: 148px;
+        row-gap: 78px;
+        column-gap: 138px;
+        grid-template-columns: 1fr 1fr;
+        
+    }
 }
 
-.feature__decoration {
-    position: relative;
-    top: -56px;
-    left: -40px;
-    background-color: #68b738;
-    width: 60px;
-    height: 60px;
+.feature__item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26px;
+}
+
+@media (min-width: 700px) {
+    .feature__item {
+        display: grid;
+        row-gap: 37px;
+        padding-bottom: 78px;
+        margin: 0;
+    }
+
+    .feature__item_1 {
+        background-image: url(../imgs/1.svg);
+        background-repeat: no-repeat;
+        background-position-x: 126px;
+    }
+
+    .feature__item_2 {
+        background-image: url(../imgs/2.svg);
+        background-repeat: no-repeat;
+        background-position-x: 126px;
+    }
+
+    .feature__item_3 {
+        background-image: url(../imgs/3.svg);
+        background-repeat: no-repeat;
+        background-position-x: 126px;
+    }
+
+    .feature__item_4 {
+        background-image: url(../imgs/4.svg);
+        background-repeat: no-repeat;
+        background-position-x: 126px;
+    }
 }
 
 .feature__advantages {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #68b738;
+    padding: 20px;
 }
+
+.feature__advantages_3 {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+@media (min-width: 700px) {
+    .feature__advantages {
+        margin-left: 20px;
+    }
+}
+
 
 .feature__description {
     font-family: "Arial", sans-serif;
@@ -30,6 +80,13 @@
     font-size: 16px;
     line-height: 18px;
     text-align: left;
-    margin-left: 40px;
-    margin-bottom: 0;
+    margin: 0;
+    padding-left: 20px;
+}
+
+@media (min-width: 700px) {
+    .feature__description {
+        padding-left: 20px;
+        line-height: 24px;
+    }
 }

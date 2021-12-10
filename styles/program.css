@@ -5,16 +5,37 @@
     padding-bottom: 20px;
 }
 
+@media (min-width: 700px) {
+    .program {
+        padding: 0;
+    }
+}
+
 .program__title {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
-    line-height: 38 px;
+    line-height: 38px;
     font-weight: 400;
     color: #000;
     text-transform: uppercase;
     text-align: center;
     position: relative;
     top: 30px;
+}
+
+@media (min-width: 700px) {
+    .program__title {
+        font-family: "Oswald", sans-serif;
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 400;
+        color: #000;
+        text-transform: uppercase;
+        text-align: left;
+        position: relative;
+        padding-left: 53px;
+        top: 82px;
+    }
 }
 
 .program__decor {
@@ -27,6 +48,17 @@
     height: 50px;
 }
 
+@media (min-width: 700px) {
+    .program__decor {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #68b738;
+        top: 3%;
+        left: 65%;
+    }
+}
+
 .program__cat {
     position: absolute;
     top: 50%;
@@ -34,6 +66,29 @@
     transform: translate(-50%, -50%);
 }
 
+.program__cat_1 {
+    width: 35px;
+    height: 49px;
+}
+
+@media (min-width: 700px) {
+    .program__cat_1 {
+        width: 140px;
+        height: 194px;
+    }
+}
+
+.program__cat_2 {
+    width: 67px;
+    height: 28px;
+}
+
+@media (min-width: 700px) {
+    .program__cat_2 {
+        width: 268px;
+        height: 112px;
+    }
+}
 
 .program__description {
     font-family: "Arial", sans-serif;
@@ -47,6 +102,22 @@
     color: #444444;
 }
 
+@media (min-width: 700px) {
+    .program__description {
+        position: relative;
+        top: -122px;
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        padding-left: 52px;
+        margin: 0;
+        text-align: left;
+        color: #444444; 
+        width: 376px;
+    }
+}
+
 .hr {
     margin: 0;
     border: none;
@@ -58,6 +129,12 @@
     margin-bottom: 20px;
 }
 
+@media (min-width: 700px) {
+    .hr {
+        display: none;
+    }
+}
+
 .program__item-link {
     font-family: "Oswald", sans-serif;
     font-size: 16px;
@@ -67,4 +144,20 @@
     text-decoration: none;
     text-align: left;
     margin-left: 20px;
+}
+
+@media (min-width: 700px) {
+    .program__item-link {
+        position: relative;
+        top: -80px;
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #000;
+        text-decoration: none;
+        text-align: left;
+        margin: 0;
+        padding-left: 52px;
+    }
 }
