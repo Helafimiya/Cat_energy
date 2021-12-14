@@ -1,20 +1,10 @@
-.social {
-    background-color: #f2f2f2;
-}
-
-.social__list {
-    display: flex;
-    justify-content: center;
+.footer-bar__social-list {
     list-style: none;
-}
 
-.social__item {
-    padding-right: 40px;
-}
-
-.social__footer-logo {
-    display: flex;
-    justify-content: center;
-    padding-top: 39px;
-    padding-bottom: 39px;
+    display: grid;
+    grid-template-columns: 22px 22px 22px;
+    column-gap: 37px;
+    justify-items: center;
+    
+    padding: 0;
 }

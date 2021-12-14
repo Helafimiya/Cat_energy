@@ -1,13 +1,16 @@
-.copyright {
+.footer-bar__copyright {
     display: flex;
     justify-content: space-between;
+    width: 90%;
+}
+
+.footer-bar__copyright-link {
+    text-decoration: none;
+}
+
+.footer-bar__copyright-sign {
     font-family: "Arial", sans-serif;
     font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #000;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 31px;
-    background-color: #f2f2f2;
+    line-height: 16px;
+    color: #444444;
 }
