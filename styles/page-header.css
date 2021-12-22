@@ -25,3 +25,11 @@
         display: none;
     }
 }
+
+@media (min-width: 1080px) {
+    .page-header {
+        padding-top: 54px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+}

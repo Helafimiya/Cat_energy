@@ -29,6 +29,7 @@
         <header class="page-header">
             <a class="page-header__logo">
                 <picture>   
+                    <source class="page-header__logo-image" srcset="imgs/logo-desktop.png" media="(min-width: 1080px)"/> 
                     <source class="page-header__logo-image" srcset="imgs/logo-tablet.svg" media="(min-width: 700px)"/> 
                     <img class="page-header__logo-image" src="imgs/logo-mobile-header.svg" alt="Логотип"/>
                 </picture>
@@ -51,6 +52,10 @@
 
         <main>
             <section class="promo">    
+                <picture>
+                    <source class="promo__background" srcset="imgs/index-background-desktop.jpg" media="(min-width: 1080px)/">
+                    <img class="promo__background" src="imgs/index-background-mobile.jpg" />
+                </picture>
                 <h1 class="promo__title">Функциональное питание для котов</h1>
                 <p class="promo__lead">Занялся собой? Займись котом!</p>
                 <img class="promo__image" src="imgs/index-can.svg"alt="промо продукта"/>
