@@ -3,16 +3,26 @@
     background-color: #f2f2f2;
 }
 
+
 .story__description {
     font-family: "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 20px; 
     margin-right: 20px;
     margin-bottom: 0;
     padding-bottom: 30px;
+}
+
+@media (min-width: 1080px) {
+    .story__description {
+        width: 436px;
+
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .story__total {
@@ -36,6 +46,15 @@
         line-height: 30px;
         margin: 0;
         padding: 0;
-    }
-   
+    } 
 } 
+
+@media (min-width: 1080px) {
+    .story__total {
+        font-family: "Oswald", sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+
+    }
+}

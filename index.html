@@ -54,6 +54,7 @@
             <section class="promo">    
                 <picture>
                     <source class="promo__background" srcset="imgs/index-background-desktop.jpg" media="(min-width: 1080px)/">
+                    <source class="promo__background" media="(min-width: 700px)/">
                     <img class="promo__background" src="imgs/index-background-mobile.jpg" />
                 </picture>
                 <h1 class="promo__title">Функциональное питание для котов</h1>
@@ -62,9 +63,9 @@
                 <a class="promo__link" href="#">Подобрать программу</a>
             </section>
 
-            <section>
+            <section class="total-program">
                 <h2 class="visually-hidden">Программы питания</h2>
-                <article class="program">
+                <article class="program program_1">
                     <h3 class="program__title">Похудение</h3>
                     <div class="program__decor">
                         <img class="program__cat program__cat_1" src="imgs/cat-slim.svg" alt="силуэт кота"/>
@@ -73,7 +74,7 @@
                     <hr class="hr"/>
                     <a class="program__item-link" href="#">Каталог slim <img src="imgs/right-arrow-long.svg" alt="" width="24" height="11"></a>
                 </article>
-                <article class="program">
+                <article class="program program_2">
                     <h3 class="program__title">Набрать вес</h3>
                     <div class="program__decor">
                         <img class="program__cat program__cat_2" src="imgs/cat-pro.svg" alt="силуэт кота" />
@@ -119,10 +120,12 @@
                 <div class="cats container">
                     <div class='cats__wrapper'>
                         <picture class="cats__cat" id="cats__before">
+                            <source srcset="imgs/cats__before(desktop).png" media="(min-width: 1080px)">
                             <source srcset="imgs/cats__before(tablet).png" media="(min-width: 700px)">
                             <img src="imgs/cats__before.png" alt="Толстый кот">
                         </picture>
                         <picture class="cats__cat cats__cat_hidden" id="cats__after">
+                            <source srcset="imgs/cats__after(desktop).png" media="(min-width: 1080px)">
                             <source srcset="imgs/cats__after(tablet).png" media="(min-width: 700px)">
                             <img src="imgs/cats__after.png" alt="Худой кот">
                         </picture>

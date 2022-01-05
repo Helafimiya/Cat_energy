@@ -18,6 +18,17 @@
     }
 }
 
+@media (min-width: 1080px) {
+    .feature {
+        display: grid;
+        grid-column: 232px;
+        column-gap: 90px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        padding-bottom: 40px;
+    }
+}
+
 .feature__item {
     display: flex;
     justify-content: center;

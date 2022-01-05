@@ -1,3 +1,14 @@
+@media (min-width: 1080px) {
+    .total-program { 
+        display: flex;
+        justify-content: space-evenly;
+
+        height: 372px;
+
+        padding-bottom: 40px;
+    }
+}
+
 .program {
     background-color: #f2f2f2;
     margin-left: 20px;
@@ -10,6 +21,15 @@
         padding: 0;
     }
 }
+
+@media (min-width: 1080px) {
+    .program {
+        margin: 0;
+        
+        width: 570px;
+    }
+}
+
 
 .program__title {
     font-family: "Oswald", sans-serif;
@@ -38,14 +58,28 @@
     }
 }
 
+@media (min-width: 1080px) {
+    .program__title {
+        font-family: "Oswald", sans-serif;
+        font-size: 36px;
+        line-height: 38px;
+        font-weight: 400;
+        color: #000;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        top: 30px;
+    }
+}
+
 .program__decor {
+    width: 50px;
+    height: 50px;
     position: relative;
     top: -30px;
     left: 22px;
     border-radius: 50%;
     background-color: #68b738;
-    width: 50px;
-    height: 50px;
 }
 
 @media (min-width: 700px) {
@@ -56,6 +90,18 @@
         background-color: #68b738;
         top: 3%;
         left: 65%;
+    }
+}
+
+@media (min-width: 1080px) {
+    .program__decor {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: -75px;
+        left: 52px;
+        border-radius: 50%;
+        background-color: #68b738;
     }
 }
 
@@ -78,6 +124,13 @@
     }
 }
 
+@media (min-width: 1080px) {
+    .program__cat_1 {
+        width: 70px;
+        height: 97px;
+    }
+}
+
 .program__cat_2 {
     width: 67px;
     height: 28px;
@@ -87,6 +140,13 @@
     .program__cat_2 {
         width: 268px;
         height: 112px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .program__cat_2 {
+        width: 134px;
+        height: 56px;
     }
 }
 
@@ -115,6 +175,25 @@
         text-align: left;
         color: #444444; 
         width: 376px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .program__description {
+        font-family: "Arial", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        text-align: left;
+        color: #444444;
+
+        width: 464px;
+        top: -40px;
+        margin: 0;
+        padding: 0;
+
+        margin-left: 52px;
+        margin-right: 52px;    
     }
 }
 
@@ -150,14 +229,20 @@
     .program__item-link {
         position: relative;
         top: -80px;
-        font-family: "Oswald", sans-serif;
         font-size: 20px;
         line-height: 20px;
-        text-transform: uppercase;
-        color: #000;
-        text-decoration: none;
-        text-align: left;
         margin: 0;
         padding-left: 52px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .program__item-link {
+        font-size: 20px;
+        line-height: 20px;
+
+        position: relative;
+        top: -4px;
+
     }
 }

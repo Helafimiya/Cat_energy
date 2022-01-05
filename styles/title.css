@@ -13,3 +13,13 @@
         text-align: left;
     }
 }
+
+@media (min-width: 1080px) {
+    .title {
+        padding-left: 110px;
+        padding-bottom: 70px;
+        margin: 0;
+
+        background-color: #fff;
+    }
+}
