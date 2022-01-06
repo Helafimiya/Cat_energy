@@ -19,6 +19,12 @@
     }
 }
 
+.feature__item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 26px;
+}
+
 @media (min-width: 1080px) {
     .feature {
         display: grid;
@@ -30,10 +36,17 @@
     }
 }
 
-.feature__item {
-    display: grid;
-    grid-template-columns: 246px;
-    row-gap: 37px;
+@media (min-width: 700px) {
+    .feature__item {
+        display: grid;
+        grid-template-columns: 246px;
+        row-gap: 37px;
+    }    
+}
+
+.feature__number {
+    position: absolute;
+    opacity: 0;
 }
 
 @media (min-width: 700px) {
@@ -44,12 +57,13 @@
         position: absolute;
         transform: translate(100%, -800%);
         z-index: -2;
+
+        opacity: 1;
     }
 
     .feature__number_1 {
         transform: translate(120%, -800%);
     }
-    
 }
 
 .feature__advantages {
