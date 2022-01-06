@@ -9,17 +9,17 @@
 @media (min-width: 1080px) {
     .promo {        
         display: grid;
+        padding-bottom: 352px;
+        padding-top: 104px;
     }
 }
 
 .promo__background {
     position: absolute;
-    transform: translateX(-50%);
+    transform: translate(-50%, 0%);
     z-index: -1;
 
-    padding-left: 100%;
-    padding-right: 100%;
-    background-color: #63a73a;
+    width: 376px;
 }
 
 @media (min-width: 700px) {
@@ -30,8 +30,13 @@
 }
 
 @media (min-width: 1080px) {
-    .promo__background {   
-    }
+   .promo__background {
+       display: block;
+       position: absolute;
+
+       transform: translate(702px, -222px);
+       width: 720px;
+   }
 }
 
 .promo__title {
@@ -49,10 +54,8 @@
 
 @media (min-width: 700px) {
     .promo__title {
-        font-family: "Oswald", sans-serif;
         font-size: 60px;
         line-height: 60px;
-        font-weight: 400;
         color: #000;
         padding-top: 67px;
         padding-left: 117px;
@@ -64,9 +67,11 @@
 
 @media (min-width: 1080px) {
     .promo__title {
-        margin: 0;
         padding: 0;
-        }
+        margin-left: 190px;
+        width: 420px;
+
+      }
 }
 
 .promo__lead {
@@ -81,15 +86,20 @@
 
 @media (min-width: 700px) {
     .promo__lead {
-        font-family: "Oswald", sans-serif;
         font-size: 20px;
         line-height: 20px;
-        font-weight: 400;
         color: #000;
         padding-left: 117px;
-        text-transform: uppercase;
         padding-top: 32px;  
         text-align: left;
+    }
+}
+
+@media (min-width: 1080px) {
+    .promo__lead {
+        padding: 0;
+        padding-top: 50px;
+        margin-left: 190px;
     }
 }
 
@@ -110,6 +120,9 @@
     .promo__image {
         width: 552px;
         height: 560px;
+
+        position: absolute;
+        transform: translate(100%, -102px);
     }
 }
 
@@ -132,14 +145,9 @@
 
 @media (min-width: 700px) {
     .promo__link {
-        font-family: "Oswald", sans-serif;
         font-size: 20px;
         line-height: 20px;
-        font-weight: 400;
         text-align: center;
-        text-decoration: none;
-        color: #fff;
-        text-transform: uppercase; 
         width: 245px;
         padding-top: 17px;
         padding-bottom: 17px;
@@ -151,19 +159,7 @@
 
 @media (min-width: 1080px) {
     .promo__link {
-        font-family: "Oswald", sans-serif;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 400;
-        text-align: center;
-        text-decoration: none;
-        color: #fff;
-        text-transform: uppercase; 
-        width: 245px;
-        padding-top: 17px;
-        padding-bottom: 17px;
-        background-color: #68b738;
         position: absolute;
-        transform: translate(48%, 0%);
+        transform: translate(190px, 260px);
     }
 }
