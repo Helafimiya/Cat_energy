@@ -1,18 +1,20 @@
 .statistic {
+    margin-left: 20px;
+
     display: grid;
     grid-template-columns: 124px 124px;
     grid-template-rows: 55px 18px;
     column-gap: 32px;
-    margin-left: 6%;
 }
 
 .statistic__item {
+    padding-top: 18px;
+
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 24px;
     font-weight: 400;
     text-align: center;
-    padding-top: 18px;
     border: 1px solid #cdcdcd;
     border-radius: 3%;
 }
@@ -33,13 +35,13 @@
 
 .statistic__mark {   
     width: 83px;
+    margin-left: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: "Arial", sans-serif;
     font-size: 12px;
     line-height: 12px;
     text-align: center;
-    margin-left: 11px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: #f2f2f2;
 }
 

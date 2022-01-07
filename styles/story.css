@@ -5,15 +5,15 @@
 
 
 .story__description {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
     font-family: "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     text-align: left;
-    margin-left: 20px; 
-    margin-right: 20px;
-    margin-bottom: 0;
-    padding-bottom: 30px;
 }
 
 @media (min-width: 1080px) {
@@ -38,14 +38,14 @@
 @media (min-width: 700px) {
     .story__total {
         position: relative;
-        text-align: end;
+        margin: 0;
+        padding: 0;
         top: -79px;
         right: -74%;
         width: 180px;
         font-size: 20px;
         line-height: 30px;
-        margin: 0;
-        padding: 0;
+        text-align: end;
     } 
 } 
 
