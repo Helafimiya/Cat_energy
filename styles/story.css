@@ -3,6 +3,12 @@
     background-color: #f2f2f2;
 }
 
+@media (min-width: 1080px) {
+    .story {
+        padding-bottom: 220px;
+    }
+}
+
 
 .story__description {
     margin-left: 20px; 
@@ -44,6 +50,8 @@
 @media (min-width: 700px) {
     .story__total {
         position: absolute;
+        transform: translate(600px, -60px);
+        width: 174px;
         margin: 0;
         padding: 0;
         font-size: 20px;
@@ -55,7 +63,7 @@
 @media (min-width: 1080px) {
     .story__total {
         position: absolute;
-        transform: translate(50%, 100%);
+        transform: translate(80px, 78px);
         width: 326px;
         font-size: 20px;
         text-transform: uppercase;

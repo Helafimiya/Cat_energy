@@ -18,14 +18,14 @@
 @media (min-width: 1080px) {
     .contacts {
         margin: 0;
+        padding-left: 74px;
+        padding-right: 74px;
 
         position: absolute;
-        width: 570px;
+        transform: translate(100px, 150px);
+        width: 400px;
 
-        padding-left: 74px;
-        padding-top: 54px;
-        padding-bottom: 54px;
-        padding-right: 74px;
+        column-gap: 100px;
         background-color: #fff;
     }
 }
