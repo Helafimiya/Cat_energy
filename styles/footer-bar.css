@@ -56,3 +56,8 @@
     line-height: 16px;
     color: #444444;
 }
+
+.footer-bar__social-icon,
+.footer-bar__copyright-icon {
+    color: #666;
+}

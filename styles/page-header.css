@@ -1,21 +1,17 @@
 .page-header {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 11px;
-
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
+    height: 64px;
 }
 
 .page-header__button-menu {
-    margin-top: 12px;
-
     width: 24px;
     height: 18px;
 
     background-image: url("../imgs/mobile-menu.svg");
     background-color: transparent;
+    background-repeat: no-repeat;
     border: none;
 }
 
@@ -34,5 +30,32 @@
         padding-top: 54px;
         padding-left: 110px;
         padding-right: 110px;
+    }
+}
+
+.page-header__title {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+@media (min-width: 700px) {
+    .page-header__title {
+        display: none;
+    }
+}
+
+.page-header__logo-image {
+    display: flex;
+    align-items: center;
+    width: 33px;
+    height: 38px; 
+}
+
+@media (min-width: 700px) {
+    .page-header__logo-image {
+        width: 173px;
+        height: 58px;
     }
 }
