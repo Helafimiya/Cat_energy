@@ -24,6 +24,12 @@
     }
 }
 
+@media (min-width: 1080px) {
+    .footer-bar {
+        column-gap: 412px;
+    }
+}
+
 .footer-bar__footer-logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -40,14 +46,25 @@
 }
 
 .footer-bar__copyright {
-    width: 90%;
-    
     display: flex;
     justify-content: space-between;
+    width: 90%;
+}
+
+@media (min-width: 1080px) {
+    .footer-bar__copyright {
+        width: auto;
+    }
 }
 
 .footer-bar__copyright-link {
     text-decoration: none;
+}
+
+@media (min-width: 1080px) {
+    .footer-bar__copyright-link {
+        margin-right: 10px;
+    }
 }
 
 .footer-bar__copyright-sign {
