@@ -11,7 +11,8 @@ body {
     text-decoration: none;
     
     background-color: #ffffff;
-    background-position: top center;
+    background-image: url(../imgs/index-background-desktop.jpg);
+    background-position: top right;
     background-repeat: no-repeat;
 
     overflow-x: hidden;
