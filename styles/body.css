@@ -11,9 +11,16 @@ body {
     text-decoration: none;
     
     background-color: #ffffff;
-    background-image: url(../imgs/index-background-desktop.jpg);
-    background-position: top right;
-    background-repeat: no-repeat;
-
+    
     overflow-x: hidden;
 }
+
+@media (min-width: 1080px) {
+    .top-right-background {
+        background-image: url(../imgs/index-background-desktop.jpg);
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 740px;
+    }
+}
+
