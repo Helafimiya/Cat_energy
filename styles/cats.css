@@ -2,6 +2,7 @@
     .cats {
         padding: 0;
         margin: 0; 
+        position: relative;
     } 
 }
 
@@ -17,7 +18,8 @@
 @media (min-width: 1080px) {
     .cats__wrapper {
         position: absolute;
-        transform: translate(550px, -450px);
+        top: -470px;
+        right: 258px;
         width: 678px;
     }
 }
@@ -44,7 +46,8 @@
 @media (min-width: 1080px) {
     .cats__range-wrapper {
         position: absolute;
-        transform: translate(650px, 70px);
+        top: 70px;
+        right: 276px;
     }
 }
 

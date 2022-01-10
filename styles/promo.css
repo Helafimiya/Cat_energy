@@ -148,7 +148,8 @@
 @media (min-width: 700px) {
     .promo__link {
         position: absolute;
-        transform: translate(120px, 240px);
+        top: 260px;
+        left: 150px;
         width: 245px;
         padding-top: 17px;
         padding-bottom: 17px;
@@ -160,6 +161,7 @@
 @media (min-width: 1080px) {
     .promo__link {
         position: absolute;
-        transform: translate(150px, 350px);
+        top: 330px;
+        left: 150px;
     }
 }
