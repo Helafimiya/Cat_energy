@@ -176,23 +176,6 @@
     }
 }
 
-.hr {
-    margin: 0;
-    border: none;
-    width: 90%;
-    position: relative;
-    right: -20px;
-    height: 2px;
-    background-color: #e1e1e1;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 700px) {
-    .hr {
-        display: none;
-    }
-}
-
 .program__item-link {
     margin-left: 20px;
     font-family: "Oswald", sans-serif;
