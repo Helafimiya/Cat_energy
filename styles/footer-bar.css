@@ -48,7 +48,7 @@
 .footer-bar__copyright {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 350px;
 }
 
 @media (min-width: 1080px) {
