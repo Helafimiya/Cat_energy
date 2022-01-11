@@ -164,3 +164,11 @@
         left: 150px;
     }
 }
+
+.promo__link:hover {
+    background-color: #5eaa2f;
+}
+
+.promo__link:active {
+    color: #8fc46e;
+}
