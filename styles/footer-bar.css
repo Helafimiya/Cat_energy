@@ -1,26 +1,78 @@
 .footer-bar {
-    background-color: #f2f2f2;
+    padding-bottom: 25px;
+
     display: grid;
     grid-template-rows: 24px 18px 38px;
     row-gap: 55px;
     justify-items: center;
-
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 25px;
+    background-color: #f2f2f2;
 }
 
 @media (min-width: 700px) {
     .footer-bar {
-        display: grid;
+        margin: 0;
 
+        display: grid;
         grid-template-columns: 132px 126px 162px;
         grid-template-rows: 150px;
         column-gap: 130px;
 
         justify-content: center;
-        align-items: center;
-        
-        margin: 0;
+        align-items: center;      
     }
+}
+
+@media (min-width: 1080px) {
+    .footer-bar {
+        column-gap: 412px;
+    }
+}
+
+.footer-bar__footer-logo {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.footer-bar__social-list {
+    list-style: none;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 22px 22px 22px;
+    column-gap: 37px;
+    justify-items: center;
+}
+
+.footer-bar__copyright {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+@media (min-width: 1080px) {
+    .footer-bar__copyright {
+        width: auto;
+    }
+}
+
+.footer-bar__copyright-link {
+    text-decoration: none;
+}
+
+@media (min-width: 1080px) {
+    .footer-bar__copyright-link {
+        margin-right: 10px;
+    }
+}
+
+.footer-bar__copyright-sign {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #444444;
+}
+
+.footer-bar__social-icon,
+.footer-bar__copyright-icon {
+    color: #666;
 }

@@ -4,26 +4,25 @@
 
 @media (min-width: 700px) {
     .contacts {
-        display: grid;
-        column-gap: 374px;
-        grid-template-columns: 150px 160px;
         margin-left: 20px;
         margin-right: 20px;
         padding-top: 70px;
         padding-bottom: 60px;
+
+        display: grid;
+        column-gap: 374px;
+        grid-template-columns: 150px 160px;
     }
 }
 
 @media (min-width: 1080px) {
     .contacts {
-        margin: 0;
-
         position: absolute;
-        width: 570px;
-
+        bottom: -1230px;
+        left: 70px;
+        column-gap: 100px;
+        margin: 0;
         padding-left: 74px;
-        padding-top: 54px;
-        padding-bottom: 54px;
         padding-right: 74px;
         background-color: #fff;
     }
@@ -33,38 +32,39 @@
     font-family: "Oswald", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    text-transform: uppercase;
     text-align: left;
-    margin-left: 6%;
+    margin-left: 20px;
+    text-transform: uppercase;
 }
 
 @media (min-width: 700px) {
     .contacts__invitation {
         font-size: 20px;
-        line-height: 25px;
+        line-height: 26px;
         margin: 0;
     }
 }
 
 .contacts__add {
     font-family: "Arial", sans-serif;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     text-align: left;
     margin-right: 20px;
 }
 
 @media (min-width: 700px) {
     .contacts__add {
-        line-height: 20px;
         margin: 0;
+
+        line-height: 20px;
         text-align: right;
     }
 }
 
 @media (min-width: 1080px) {
     .contacts__add {
-        text-align: left;
         width: 154px;
+        text-align: left;
     }
 }

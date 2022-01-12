@@ -1,19 +1,19 @@
 @media (min-width: 1080px) {
     .total-program { 
-        display: flex;
-        justify-content: space-evenly;
-
+        padding-bottom: 40px;
         height: 372px;
 
-        padding-bottom: 40px;
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
 .program {
-    background-color: #f2f2f2;
     margin-left: 20px;
     margin-right: 20px;
     padding-bottom: 20px;
+
+    background-color: #f2f2f2;
 }
 
 @media (min-width: 700px) {
@@ -32,43 +32,35 @@
 
 
 .program__title {
+    position: relative;
+    top: 30px;
+
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 38px;
     font-weight: 400;
-    color: #000;
     text-transform: uppercase;
     text-align: center;
-    position: relative;
-    top: 30px;
+    color: #000;
 }
 
 @media (min-width: 700px) {
     .program__title {
-        font-family: "Oswald", sans-serif;
-        font-size: 36px;
-        line-height: 38px;
-        font-weight: 400;
-        color: #000;
-        text-transform: uppercase;
-        text-align: left;
         position: relative;
-        padding-left: 53px;
         top: 82px;
+        padding-left: 53px;
+
+        font-size: 36px;
+        text-align: left;
     }
 }
 
 @media (min-width: 1080px) {
     .program__title {
-        font-family: "Oswald", sans-serif;
-        font-size: 36px;
-        line-height: 38px;
-        font-weight: 400;
-        color: #000;
-        text-transform: uppercase;
-        text-align: center;
         position: relative;
         top: 30px;
+
+        text-align: center;
     }
 }
 
@@ -86,10 +78,8 @@
     .program__decor {
         width: 200px;
         height: 200px;
-        border-radius: 50%;
-        background-color: #68b738;
-        top: 3%;
-        left: 65%;
+        top: 8px;
+        left: 482px;
     }
 }
 
@@ -100,8 +90,6 @@
         position: relative;
         top: -75px;
         left: 52px;
-        border-radius: 50%;
-        background-color: #68b738;
     }
 }
 
@@ -151,13 +139,13 @@
 }
 
 .program__description {
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 0;
     font-family: "Arial", sans-serif;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
-    margin-left: 20px;
-    margin-right: 25px;
-    margin-top: 0;
     text-align: left;
     color: #444444;
 }
@@ -166,83 +154,56 @@
     .program__description {
         position: relative;
         top: -122px;
-        font-family: "Arial", sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
         padding-left: 52px;
         margin: 0;
-        text-align: left;
-        color: #444444; 
         width: 376px;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
 @media (min-width: 1080px) {
     .program__description {
-        font-family: "Arial", sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: 400;
-        text-align: left;
-        color: #444444;
-
-        width: 464px;
-        top: -40px;
-        margin: 0;
         padding: 0;
-
+        margin: 0;
         margin-left: 52px;
         margin-right: 52px;    
-    }
-}
-
-.hr {
-    margin: 0;
-    border: none;
-    width: 90%;
-    position: relative;
-    right: -20px;
-    height: 2px;
-    background-color: #e1e1e1;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 700px) {
-    .hr {
-        display: none;
+        width: 464px;
+        top: -40px;
+        
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
 .program__item-link {
+    margin-left: 20px;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
     line-height: 16px;
-    text-transform: uppercase;
-    color: #000;
-    text-decoration: none;
     text-align: left;
-    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
 }
 
 @media (min-width: 700px) {
     .program__item-link {
         position: relative;
         top: -80px;
-        font-size: 20px;
-        line-height: 20px;
         margin: 0;
         padding-left: 52px;
+        font-size: 20px;
+        line-height: 20px;
     }
 }
 
 @media (min-width: 1080px) {
     .program__item-link {
-        font-size: 20px;
-        line-height: 20px;
-
         position: relative;
         top: -4px;
 
+        font-size: 20px;
+        line-height: 20px;
     }
 }
