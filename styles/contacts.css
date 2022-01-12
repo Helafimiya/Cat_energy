@@ -18,7 +18,7 @@
 @media (min-width: 1080px) {
     .contacts {
         position: absolute;
-        bottom: -1800px;
+        bottom: -1230px;
         left: 70px;
         column-gap: 100px;
         margin: 0;
@@ -27,7 +27,6 @@
         background-color: #fff;
     }
 }
-
 
 .contacts__invitation {
     font-family: "Oswald", sans-serif;
