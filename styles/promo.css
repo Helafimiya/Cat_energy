@@ -65,8 +65,7 @@
 
 @media (min-width: 1080px) {
     .promo__title {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0;
         grid-row-start: 2;
         grid-row-end: 3;
     }
@@ -97,6 +96,7 @@
 
 @media (min-width: 1080px) {
     .promo__lead {
+        padding: 0;
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
@@ -161,7 +161,7 @@
     .promo__link {
         position: absolute;
         top: 330px;
-        left: 150px;
+        left: 120px;
     }
 }
 
