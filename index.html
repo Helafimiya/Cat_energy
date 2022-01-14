@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="styles/normalize.css"/>
         <link rel="stylesheet" href="styles/body.css"/>
         <link rel="stylesheet" href="styles/top-right-background.css"/>
@@ -23,7 +23,6 @@
         <link rel="stylesheet" href="styles/statistic.css"/>
         <link rel="stylesheet" href="styles/cats.css"/>
         <link rel="stylesheet" href="styles/contacts.css"/>
-        <link rel="stylesheet" href="styles/map.css"/>
         <link rel="stylesheet" href="styles/footer-bar.css"/>
     </head>
     <body class="top-right-background">
@@ -33,9 +32,7 @@
                 <source srcset="imgs/logo-tablet.svg" media="(min-width: 700px)"/> 
                 <img src="imgs/logo-mobile.svg" alt="Логотип"/>
             </picture>
-            <span class="page-header__title">
-                <b>Cat</b> Energy
-            </span>
+            <span class="page-header__title"><b>Cat</b> Energy</span>
             <button class="page-header__button-menu"></button>
             <nav class="main-nav">
                 <ul class="main-nav__list">
@@ -58,12 +55,12 @@
                 <div class="promo__container container">
                     <h1 class="promo__title">Функциональное питание для котов</h1>
                     <p class="promo__lead">Занялся собой? Займись котом!</p>
-                    <img class="promo__image" src="imgs/index-can.svg"alt="промо продукта"/>
-                    <a class="promo__link" href="#">Подобрать программу</a>
+                    <img class="promo__image" src="imgs/index-can.png" alt="промо продукта"/>
+                    <a class="promo__link" href="#program">Подобрать программу</a>
                 </div>  
             </section>
 
-            <section class="total-program">
+            <section class="total-program container" id="program">
                 <h2 class="visually-hidden">Программы питания</h2>
                 <article class="program program_1">
                     <h3 class="program__title">Похудение</h3>
@@ -86,7 +83,7 @@
             </section>
 
             <section>
-                <h2 class="title">Как это работает</h2>
+                <h2 class="title container">Как это работает</h2>
                 <ul class="feature">
                     <li class="feature__item feature__item_1">
                         <img class="feature__advantages" src="imgs/advantage-1.png" alt="" width="26" height="29">
@@ -111,16 +108,18 @@
                 </ul>
             </section> 
             <section class="story">
-                <h2 class="title">Живой пример</h2>
-                <p class="story__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. 
-                    Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-                <div class="statistic">
-                    <div class="statistic__item statistic__item_1">5 кг</div>
-                    <div class="statistic__item statistic__item_2">60 дней</div>
-                    <div class="statistic__mark statistic__mark_1">Снижение веса</div>
-                    <div class="statistic__mark statistic__mark_2">Затрачено времени</div>
+                <h2 class="title container">Живой пример</h2>
+                <div class="container">
+                    <p class="story__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. 
+                        Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+                    <div class="statistic">
+                        <div class="statistic__item statistic__item_1">5 кг</div>
+                        <div class="statistic__item statistic__item_2">60 дней</div>
+                        <div class="statistic__mark statistic__mark_1">Снижение веса</div>
+                        <div class="statistic__mark statistic__mark_2">Затрачено времени</div>
+                    </div>
+                    <p class="story__total">Затраты на питание: 15 000 руб.</p>
                 </div>
-                <p class="story__total">Затраты на питание: 15 000 руб.</p>
                 <div class="cats container">
                     <div class='cats__wrapper'>
                         <picture class="cats__cat" id="cats__before">
@@ -141,13 +140,10 @@
                     </div>
                 </div>
             </section>
-            <section class="contacts">
+            <section class="contacts container">
                 <p class="contacts__invitation">Приглашаем к сотрудничеству дилеров!</p>
                 <p class="contacts__add">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-            </section>
-    
-             <section class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.82468214751856!2d30.322929818566084!3d59.93882151248996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca640933%3A0x8403eb878242dbd5!2z0JTQvtGF0L7QtNC90YvQuSDQtNC-0Lwg0J0uINCQLiDQnNC10LvRjNGG0LXRgNCw!5e0!3m2!1sru!2sru!4v1639485064528!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249.82468214751856!2d30.322929818566084!3d59.93882151248996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca640933%3A0x8403eb878242dbd5!2z0JTQvtGF0L7QtNC90YvQuSDQtNC-0Lwg0J0uINCQLiDQnNC10LvRjNGG0LXRgNCw!5e0!3m2!1sru!2sru!4v1639485064528!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </section>
         </main> 
         <footer class="footer-bar container">
@@ -182,5 +178,6 @@
             </section>
         </footer>  
         <script src='js/index.js'></script>  
+        <script src='js/scrollProgram.js'></script>  
     </body>        
 </html>
