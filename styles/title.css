@@ -1,5 +1,4 @@
 .title {
-    margin-left: 20px;
     padding-top: 34px;
     font-size: 36px;
     line-height: 60px;
@@ -18,8 +17,6 @@
     .title {
         padding-left: 110px;
         padding-bottom: 70px;
-        margin: 0;
-
         background-color: #fff;
     }
 }
