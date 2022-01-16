@@ -16,9 +16,7 @@
 }
 
 .story__description {
-    margin-left: 20px; 
-    margin-right: 20px;
-    margin-bottom: 0;
+    margin: 0;
     padding-bottom: 30px;
     font-family: "Arial", sans-serif;
     font-weight: 400;
@@ -30,13 +28,9 @@
 @media (min-width: 1080px) {
     .story__description {
         width: 436px;
-
         padding: 0;
         margin: 0;
         padding-top: 50px;
-        margin-left: 110px;
-        
-
         line-height: 24px;
         color: #444444;
     }

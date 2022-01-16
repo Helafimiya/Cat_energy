@@ -9,10 +9,7 @@
 }
 
 .program {
-    margin-left: 20px;
-    margin-right: 20px;
     padding-bottom: 20px;
-
     background-color: #f2f2f2;
 }
 
@@ -24,12 +21,10 @@
 
 @media (min-width: 1080px) {
     .program {
-        margin: 0;
-        
+        margin: 0;        
         width: 570px;
     }
 }
-
 
 .program__title {
     position: relative;

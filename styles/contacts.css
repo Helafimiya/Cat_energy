@@ -1,29 +1,43 @@
 .contacts {
-    display: flex;    
+    display: grid;
+    grid-template-rows: 114px 360px;
 }
 
 @media (min-width: 700px) {
     .contacts {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-top: 70px;
-        padding-bottom: 60px;
-
-        display: grid;
-        column-gap: 374px;
-        grid-template-columns: 150px 160px;
+        grid-template-rows: 200px 400px;
     }
 }
 
 @media (min-width: 1080px) {
     .contacts {
+        display: block;
+        position: relative;
+    }
+}
+
+.contacts__block {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+@media (min-width: 700px) {
+    .contacts__block {
+        grid-template-columns: 2fr 1.5fr;
+        column-gap: 324px;
+    }
+}
+
+@media (min-width: 1080px) {
+    .contacts__block {
         position: absolute;
-        bottom: -1230px;
-        left: 70px;
-        column-gap: 100px;
-        margin: 0;
-        padding-left: 74px;
-        padding-right: 74px;
+        top: 124px;
+        left: 32px;
+        grid-template-columns: 180px 220px;
+        column-gap: 84px;
+        padding: 50px;
         background-color: #fff;
     }
 }
@@ -33,15 +47,15 @@
     font-weight: 400;
     font-size: 16px;
     text-align: left;
-    margin-left: 20px;
     text-transform: uppercase;
 }
 
 @media (min-width: 700px) {
     .contacts__invitation {
+        margin: 0;
+        margin-left: 50px;
         font-size: 20px;
         line-height: 26px;
-        margin: 0;
     }
 }
 
@@ -50,21 +64,27 @@
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    margin-right: 20px;
 }
 
 @media (min-width: 700px) {
     .contacts__add {
         margin: 0;
-
+        margin-right: 50px;
         line-height: 20px;
         text-align: right;
     }
 }
 
+.contacts__map {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+
 @media (min-width: 1080px) {
-    .contacts__add {
-        width: 154px;
-        text-align: left;
+    .contacts__map {
+        width: 100%;
+        height: 400px;
     }
 }
