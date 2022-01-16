@@ -24,7 +24,8 @@
 
 @media (min-width: 1080px) {
     .footer-bar {
-        column-gap: 412px;
+        justify-content: space-between;
+        padding-bottom: 0;
     }
 }
 
