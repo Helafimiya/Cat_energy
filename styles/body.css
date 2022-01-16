@@ -13,4 +13,11 @@ body {
     background-color: #ffffff;
     
     overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body *,
+*::after,
+*::before {
+    box-sizing: inherit;
 }

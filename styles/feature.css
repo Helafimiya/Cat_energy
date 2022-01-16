@@ -33,17 +33,16 @@
 }
 
 .feature__item {
-    padding-bottom: 26px;
-
+    position: relative;
     display: flex;
     justify-content: center;
+    padding-bottom: 26px;
 }
 
 
 @media (min-width: 700px) {
     .feature__item {
         display: grid;
-        grid-template-columns: 246px;
         row-gap: 37px;
     }    
 }
@@ -51,22 +50,19 @@
 .feature__number {
     position: absolute;
     opacity: 0;
+    margin: 0;
 }
 
 @media (min-width: 700px) {
     .feature__number {
-        font-size: 281px;
-        color: #f2f2f2;
-
         position: absolute;
-        transform: translate(100%, -800%);
+        top: 0;
+        right: 0;
         z-index: -2;
-
         opacity: 1;
-    }
-
-    .feature__number_1 {
-        transform: translate(120%, -800%);
+        color: #f2f2f2;
+        font-size: 281px;
+        line-height: 206px;
     }
 }
 
@@ -99,7 +95,6 @@
 
 @media (min-width: 700px) {
     .feature__description {
-        padding-left: 20px;
         line-height: 24px;
     }
 }

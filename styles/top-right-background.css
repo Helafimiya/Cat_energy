@@ -1,8 +1,9 @@
 @media (min-width: 1080px) {
     .top-right-background {
-        background-image: url(../imgs/index-background-desktop.jpg);
-        background-position: top right;
-        background-repeat: no-repeat;
-        background-size: 740px;
+        --background-color: #65a93c;
+        background:
+        url(../imgs/index-background-desktop.jpg) no-repeat top right,
+        linear-gradient(to bottom, transparent 0, transparent 696px,#fff 696px),
+        linear-gradient(to right, #fff, #fff 50%, var(--background-color) 50%);
     }
 }
