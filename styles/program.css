@@ -8,7 +8,7 @@
 
 .program {
     position: relative;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     background-color: #f2f2f2;
 }
 
@@ -31,6 +31,7 @@
 }
 
 .program__title {
+    padding-top: 40px;
     font-family: "Oswald", sans-serif;
     font-size: 24px;
     line-height: 38px;
@@ -58,9 +59,14 @@
     }
 }
 
+.program__decor-block {
+    position: absolute;
+    top: 26px;
+    left: 22px;
+}
+
 @media (min-width: 1080px) {
     .program__decor-block {
-        position: absolute;
         top: 48px;
         left: 52px;
     }
@@ -165,6 +171,11 @@
     }
 } 
 
+.program__link-block {
+    padding-left: 20px;
+    padding-bottom: 24px;
+}
+
 @media (min-width: 1080px) {
     .program__link-block {
         padding-left: 52px;
@@ -173,7 +184,6 @@
 }
 
 .program__item-link {
-    margin-left: 20px;
     font-family: "Oswald", sans-serif;
     font-size: 16px;
     line-height: 16px;

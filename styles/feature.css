@@ -1,6 +1,7 @@
 .feature__list {
     display: grid;
     margin: 0;
+    margin-bottom: 40px;
     padding: 0;
     list-style: none;
 }
@@ -30,9 +31,15 @@
 
 .feature__item {
     position: relative;
-    display: flex;
-    justify-content: center;
+    display: grid;
     padding-bottom: 26px;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.feature__item:last-child {
+    padding-bottom: 0;
 }
 
 
@@ -43,19 +50,28 @@
     }    
 }
 
+.feature__advantages-block {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: #68b738;
+}
 
 @media (min-width: 1080px) {
     .feature__advantages-block {
-        position: relative;
         width: 80px;
         height: 80px;
-        background-color: #68b738;
     }
+}
+
+.feature__advantages {
+    position: absolute;
+    top: 14px;
+    right: 16px;
 }
 
 @media (min-width: 1080px) {
     .feature__advantages {
-        position: absolute;
         transform: translate(100%, 100%);
     }
 }
