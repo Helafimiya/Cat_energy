@@ -57,6 +57,13 @@
     background-color: #68b738;
 }
 
+@media (min-width: 700px) {
+    .feature__advantages-block {
+        width: 80px;
+        height: 80px;
+    }
+}
+
 @media (min-width: 1080px) {
     .feature__advantages-block {
         width: 80px;
@@ -70,9 +77,17 @@
     right: 16px;
 }
 
+@media (min-width: 700px) {
+    .feature__advantages {
+        top: 26px;
+        left: 26px;
+    }
+}
+
 @media (min-width: 1080px) {
     .feature__advantages {
-        transform: translate(100%, 100%);
+        top: 26px;
+        left: 26px;
     }
 }
 
