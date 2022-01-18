@@ -45,10 +45,12 @@
 
 @media (min-width: 700px) {
     .feature__item {
-        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
         row-gap: 37px;
     }    
 }
+
 
 .feature__advantages-block {
     position: relative;

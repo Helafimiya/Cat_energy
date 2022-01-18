@@ -19,7 +19,7 @@
     .cats__wrapper {
         position: absolute;
         top: -470px;
-        right: 258px;
+        left: 50%;
         width: 678px;
     }
 }
@@ -47,7 +47,7 @@
     .cats__range-wrapper {
         position: absolute;
         top: 70px;
-        right: 276px;
+        left: 50%;
     }
 }
 
@@ -95,9 +95,9 @@
         width: 8px;
         height: 8px;
         left: 0;
-        border: 12px solid #fff;
+        border: 2px solid #68b738;
         border-radius: 50%;
-        outline: 1px solid #dcdcdc;
+        outline: 12px solid #fff;
     }
 }
 
