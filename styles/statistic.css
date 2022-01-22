@@ -1,8 +1,14 @@
 .statistic {
     display: grid;
-    grid-template-columns: 124px 124px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 55px 18px;
     column-gap: 40px;
+}
+
+@media (min-width: 700px) {
+    .statistic {
+        grid-template-columns: 124px 124px;
+    }
 }
 
 @media (min-width: 1080px) {
@@ -39,7 +45,7 @@
 
 .statistic__mark {   
     width: 83px;
-    margin-left: 11px;
+    margin-left: 20px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: "Arial", sans-serif;

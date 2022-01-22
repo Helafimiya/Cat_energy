@@ -2,7 +2,16 @@
     background-image: url('../imgs/index-background-mobile.jpg');
     background-repeat: no-repeat;
     background-position: top center;   
-    background-size: cover;
+    background-size: contain;
+    height: 480px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 700px) {
+    .promo {
+        background-image: none;
+        height: 886px;
+    }
 }
 
 @media (min-width: 1080px) {
@@ -31,10 +40,7 @@
 
 .promo__container {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+ }
 
 @media (min-width: 700px) {
     .promo__container {
@@ -54,6 +60,7 @@
 .promo__title {
     margin: 0;
     padding-top: 32px;
+    padding-bottom: 20px;
     font-family: "Oswald", sans-serif;
     font-size: 35px;
     line-height: 36px;
@@ -65,9 +72,10 @@
 @media (min-width: 700px) {
     .promo__title {
         margin: 0;
-        padding-bottom: 32px;
-        padding-left: 120px;
-        width: 420px;
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-bottom: 50px;
+        width: 100%;
         font-size: 60px;
         line-height: 60px;
         color: #000;
@@ -82,7 +90,10 @@
 }
 
 .promo__lead {
+    margin: 0;
+    padding: 0;
     padding-top: 15px;
+    padding-bottom: 278px;
     font-family: "Oswald", sans-serif;
     font-size: 14px;
     line-height: 14px;
@@ -95,8 +106,8 @@
 @media (min-width: 700px) {
     .promo__lead {
         margin: 0;
-        padding: 0;
-        padding-left: 120px;
+        padding-left: 90px;
+        padding-bottom: 50px;
         font-size: 20px;
         line-height: 20px;
         text-align: left;
@@ -111,20 +122,23 @@
 }
 
 .promo__image {
-    padding-top: 30px;
+    position: absolute;
+    top: 256px;
+    left: calc(50% - 150px);
     width: 271px;
 }
 
 @media (min-width: 700px) {
     .promo__image {
+        top: 358px;
+        left: calc(50% - 400px);
         width: 709px;
-        height: 609px;
+        z-index: -1;
     }
 }
 
 @media (min-width: 1080px) {
     .promo__image {
-        position: absolute;
         top: 0;
         left: calc(50% - 200px);
         padding: 0;
@@ -152,10 +166,8 @@
 
 @media (min-width: 700px) {
     .promo__link {
-        position: absolute;
-        top: 260px;
-        left: 150px;
         width: 245px;
+        margin-left: 90px;
         padding-top: 17px;
         padding-bottom: 17px;
         font-size: 20px;
@@ -165,6 +177,7 @@
 
 @media (min-width: 1080px) {
     .promo__link {
+        margin: 0;
         position: static;
     }
 }

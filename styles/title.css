@@ -1,9 +1,15 @@
 .title {
-    padding-top: 34px;
+    margin: 0;
+    padding-bottom: 34px;
     font-size: 36px;
     line-height: 60px;
     font-weight: 400;
     text-align: left;
+}
+
+.title_story {
+    padding-top: 20px;
+    background-color: #f2f2f2;
 }
 
 @media (min-width: 700px) {
@@ -15,7 +21,6 @@
 
 @media (min-width: 1080px) {
     .title {
-        padding-left: 110px;
         padding-bottom: 70px;
         background-color: #fff;
     }
