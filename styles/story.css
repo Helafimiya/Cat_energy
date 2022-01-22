@@ -22,6 +22,8 @@
 
 @media (min-width: 1080px) {
     .story__background {
+        display: flex;
+        justify-content: space-between;
         padding-bottom: 220px;
     }
 }
@@ -38,7 +40,7 @@
 
 @media (min-width: 1080px) {
     .story__description {
-        width: 436px;
+        max-width: 436px;
         padding: 0;
         margin: 0;
         padding-top: 50px;
