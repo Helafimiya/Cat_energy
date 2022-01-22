@@ -1,16 +1,29 @@
-.story {
-    padding-bottom: 24px;
+.story__title {
+    padding-top: 20px;
     background-color: #f2f2f2;
 }
 
+@media (min-width: 1080px) {
+    .story__title {
+        background-color: transparent;
+    }
+}
+
+.story__background {
+    background-color: #f2f2f2;
+    padding-bottom: 24px;
+}
+
 @media (min-width: 700px) {
-    .story {
+    .story__background {
         position: relative;
     }
 }
 
 @media (min-width: 1080px) {
-    .story {
+    .story__background {
+        display: flex;
+        justify-content: space-between;
         padding-bottom: 220px;
     }
 }
@@ -27,7 +40,7 @@
 
 @media (min-width: 1080px) {
     .story__description {
-        width: 436px;
+        max-width: 436px;
         padding: 0;
         margin: 0;
         padding-top: 50px;
@@ -57,8 +70,8 @@
         font-size: 20px;
         line-height: 30px;
         text-align: end;
-    } 
-} 
+    }
+}
 
 @media (min-width: 1080px) {
     .story__total {
@@ -69,6 +82,5 @@
         font-size: 20px;
         text-transform: uppercase;
         text-align: center;
-
     }
 }
