@@ -7,11 +7,6 @@
     text-align: left;
 }
 
-.title_story {
-    padding-top: 20px;
-    background-color: #f2f2f2;
-}
-
 @media (min-width: 700px) {
     .title {
         font-size: 60px;
