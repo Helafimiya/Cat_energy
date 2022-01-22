@@ -1,6 +1,6 @@
 .contacts {
     display: grid;
-    grid-template-rows: 114px 360px;
+    grid-template-rows: 114px 320px;
 }
 
 @media (min-width: 700px) {
@@ -18,7 +18,7 @@
 
 .contacts__block {
     display: grid;
-    grid-template-columns: 160px 160px;
+    grid-template-columns: 130px 130px;
     column-gap: 20px;
     align-items: center;
 }
@@ -79,7 +79,7 @@
     width: 100%;
     height: 100%;
     grid-column-start: 1;
-    grid-column-end: 3; 
+    grid-column-end: 3;
 }
 
 @media (min-width: 1080px) {
