@@ -23,8 +23,7 @@
 @media (min-width: 1080px) {
     .story__background {
         display: flex;
-        justify-content: space-between;
-        padding-bottom: 220px;
+        justify-content: space-around;
     }
 }
 
@@ -76,7 +75,7 @@
 @media (min-width: 1080px) {
     .story__total {
         position: absolute;
-        top: 556px;
+        top: 410px;
         left: 120px;
         width: 326px;
         font-size: 20px;

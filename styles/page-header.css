@@ -1,8 +1,10 @@
 .page-header {
     display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
     justify-content: space-between;
     align-items: center;
-    height: 66px;
+    
 }
 
 .page-header__button-menu {
@@ -19,17 +21,13 @@
     .page-header {
         padding-top: 24px;
     }
-
+    
     .page-header__button-menu {
         display: none;
     }
 }
 
-@media (min-width: 1080px) {
-    .page-header {
-        padding-top: 54px;
-    }
-}
+
 
 .page-header__title {
     text-transform: uppercase;

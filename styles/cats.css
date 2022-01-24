@@ -7,6 +7,13 @@
     overflow-x: hidden;
 }
 
+@media (min-width: 1080px) {
+    .cats {
+        position: relative;
+        top: -122px;
+    }
+}
+
 .cats__cat {
     grid-column-start: 1;
     grid-column-end: 2;
